@@ -1,0 +1,179 @@
+:root {
+  --primary-color: #f5b754;
+  --primary-color-dark: #d6a04a;
+  --text-dark: #15191d;
+  --text-light: #737373;
+  --extra-light: #e5e5e5;
+  --white: #ffffff;
+  --max-width: 1200px;
+  --header-font: "Syncopate", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #6e45e2, #88d3ce); /* Correct property for gradients */
+  font-family: Arial, sans-serif; /* Optional: set a consistent font-family */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* .car-rent-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .car-rent-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #555;
+  }
+  
+  form input,
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  form input:focus,
+  form select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .back-btn,
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-btn {
+    background-color: #ccc;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #aaa;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  } */
+ 
+  
+  .car-rent-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Glass-effect background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for glass effect */
+  }
+  
+  .car-rent-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: black; /* Black text */
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: black; /* Dark text for readability */
+  }
+  
+  form input,
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent input background */
+    color: #333; /* Black text for inputs */
+  }
+  
+  form input:hover,
+  form select:hover{
+    cursor: pointer;
+  }
+  form input:focus,
+  form select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .back-btn,
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-btn {
+    background-color: #007bff;
+    color: black;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #0056b3;;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: black;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.full{
+  height: 594px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 
+              0 10px 10px rgba(0, 0, 0, 0.22);
+  /*position: relative;*/
+  margin: auto;
+  margin-top: 100px;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+  min-width: 370px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-container {
+  display: flex;
+}
+
+.left-container {
+  flex: 1;
+  height: 480px;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.underline-custom-width {
+  border-bottom: 2px solid white;
+  padding-top: 2px;
+  width: 30%;
+}
+
+.left-container p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.right-inner-container {
+  width: 70%;
+  height: 80%;
+  text-align: center;
+}
+
+.left-inner-container {
+  width: 80%;
+  height: 50%;
+  text-align: center;
+  line-height: 22px;
+}
+
+.left-inner-container h2 {
+  margin-top: 10px;
+}
+
+.top {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color:rgb(33, 193, 225);
+  padding: 1%;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  width: 50px;
+  height: 50px;
+}
+
+.top:hover{
+  opacity: 0.7;
+}
+
+input,
+textarea {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+/* input:focus,
+textarea:focus {
+  outline: 1px solid teal;
+} */
+
+.top button {
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(90deg, rgb(36, 27, 225) 0%, rgba(77, 77, 236, 1) 39%, rgb(33, 193, 225) 100%);
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: 15px;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+  width: 120px;
+}
+
+.submit {
+  background-color: rgb(33, 193, 225);
+  text-decoration: none;
+  width: 90px;
+  height: 35px;
+  border: none;
+}
+
+.submit:hover {
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-container {
+    display: none;
+  }
+  .lg-view {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sm-view {
+    display: none;
+  }
+}
+
+form p {
+  text-align: left;
+}
